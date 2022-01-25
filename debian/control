@@ -1,0 +1,13 @@
+Source: ros-melodic-human-description
+Section: misc
+Priority: optional
+Maintainer: Séverin Lemaignan <severin.lemaignan@pal-robotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-human-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-xacro
+Description: This package contains a parametric kinematic description of humans.
+ The files in this package are parsed and used by a variety of other components, notably in the context of human-robot interaction. Most users will not interact directly with this package.
